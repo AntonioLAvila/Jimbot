@@ -1,0 +1,26 @@
+[0.008s] Invoking command in '/home/antonio/Documents/GitHub/Jimbot/build/robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/antonio/Documents/GitHub/Jimbot/build/robot -- -j16 -l16
+[0.025s] [35m[1mConsolidate compiler generated dependencies of target drive[0m
+[0.034s] [ 50%] [32mBuilding CXX object CMakeFiles/drive.dir/src/drive.cpp.o[0m
+[4.043s] [100%] [32m[1mLinking CXX executable drive[0m
+[4.230s] [100%] Built target drive
+[4.240s] Invoked command in '/home/antonio/Documents/GitHub/Jimbot/build/robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/antonio/Documents/GitHub/Jimbot/build/robot -- -j16 -l16
+[4.251s] Invoking command in '/home/antonio/Documents/GitHub/Jimbot/build/robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/antonio/Documents/GitHub/Jimbot/build/robot
+[4.255s] -- Install configuration: ""
+[4.255s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/robot/lib/robot/drive
+[4.260s] -- Set runtime path of "/home/antonio/Documents/GitHub/Jimbot/install/robot/lib/robot/drive" to ""
+[4.260s] -- Up-to-date: /home/antonio/Documents/GitHub/Jimbot/install/robot/share/ament_index/resource_index/package_run_dependencies/robot
+[4.260s] -- Up-to-date: /home/antonio/Documents/GitHub/Jimbot/install/robot/share/ament_index/resource_index/parent_prefix_path/robot
+[4.260s] -- Up-to-date: /home/antonio/Documents/GitHub/Jimbot/install/robot/share/robot/environment/ament_prefix_path.sh
+[4.260s] -- Up-to-date: /home/antonio/Documents/GitHub/Jimbot/install/robot/share/robot/environment/ament_prefix_path.dsv
+[4.260s] -- Up-to-date: /home/antonio/Documents/GitHub/Jimbot/install/robot/share/robot/environment/path.sh
+[4.260s] -- Up-to-date: /home/antonio/Documents/GitHub/Jimbot/install/robot/share/robot/environment/path.dsv
+[4.260s] -- Up-to-date: /home/antonio/Documents/GitHub/Jimbot/install/robot/share/robot/local_setup.bash
+[4.260s] -- Up-to-date: /home/antonio/Documents/GitHub/Jimbot/install/robot/share/robot/local_setup.sh
+[4.260s] -- Up-to-date: /home/antonio/Documents/GitHub/Jimbot/install/robot/share/robot/local_setup.zsh
+[4.260s] -- Up-to-date: /home/antonio/Documents/GitHub/Jimbot/install/robot/share/robot/local_setup.dsv
+[4.260s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/robot/share/robot/package.dsv
+[4.260s] -- Up-to-date: /home/antonio/Documents/GitHub/Jimbot/install/robot/share/ament_index/resource_index/packages/robot
+[4.260s] -- Up-to-date: /home/antonio/Documents/GitHub/Jimbot/install/robot/share/robot/cmake/robotConfig.cmake
+[4.261s] -- Up-to-date: /home/antonio/Documents/GitHub/Jimbot/install/robot/share/robot/cmake/robotConfig-version.cmake
+[4.261s] -- Up-to-date: /home/antonio/Documents/GitHub/Jimbot/install/robot/share/robot/package.xml
+[4.263s] Invoked command in '/home/antonio/Documents/GitHub/Jimbot/build/robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/antonio/Documents/GitHub/Jimbot/build/robot

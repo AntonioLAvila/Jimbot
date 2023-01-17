@@ -1,0 +1,111 @@
+[0.005s] Invoking command in '/home/antonio/Documents/GitHub/Jimbot/build/realsense2_camera': AMENT_PREFIX_PATH=/home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/antonio/Documents/GitHub/Jimbot/src/realsense-ros/realsense2_camera -DCMAKE_INSTALL_PREFIX=/home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera
+[0.036s] -- The C compiler identification is GNU 11.3.0
+[0.073s] -- The CXX compiler identification is GNU 11.3.0
+[0.077s] -- Detecting C compiler ABI info
+[0.109s] -- Detecting C compiler ABI info - done
+[0.113s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.113s] -- Detecting C compile features
+[0.113s] -- Detecting C compile features - done
+[0.115s] -- Detecting CXX compiler ABI info
+[0.153s] -- Detecting CXX compiler ABI info - done
+[0.157s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.157s] -- Detecting CXX compile features
+[0.158s] -- Detecting CXX compile features - done
+[0.158s] -- Create Release Build.
+[0.159s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.245s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.287s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.303s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.305s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.309s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.316s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.326s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.335s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.455s] -- Found image_transport: 3.1.5 (/opt/ros/humble/share/image_transport/cmake)
+[0.486s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.487s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.530s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.543s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.566s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.570s] -- Looking for pthread.h
+[0.614s] -- Looking for pthread.h - found
+[0.614s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.676s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.677s] -- Found Threads: TRUE  
+[0.778s] -- Found rclcpp_components: 16.0.2 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.808s] -- Found realsense2_camera_msgs: 4.51.1 (/home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake)
+[0.837s] -- Found nav_msgs: 4.2.2 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.881s] -- Found tf2_ros: 0.25.1 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.018s] -- Found diagnostic_updater: 3.0.0 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[1.054s] -- Build for ROS2 Humble
+[1.107s] -- Configuring done
+[1.118s] -- Generating done
+[1.119s] -- Build files have been written to: /home/antonio/Documents/GitHub/Jimbot/build/realsense2_camera
+[1.126s] Invoked command in '/home/antonio/Documents/GitHub/Jimbot/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/antonio/Documents/GitHub/Jimbot/src/realsense-ros/realsense2_camera -DCMAKE_INSTALL_PREFIX=/home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera
+[1.126s] Invoking command in '/home/antonio/Documents/GitHub/Jimbot/build/realsense2_camera': AMENT_PREFIX_PATH=/home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/antonio/Documents/GitHub/Jimbot/build/realsense2_camera -- -j16 -l16
+[1.157s] [ 12%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.o[0m
+[1.157s] [ 12%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/parameters.cpp.o[0m
+[1.157s] [ 18%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.o[0m
+[1.157s] [ 25%] [32mBuilding CXX object CMakeFiles/realsense2_camera_node.dir/rclcpp_components/node_main_realsense2_camera_node.cpp.o[0m
+[1.157s] [ 31%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o[0m
+[1.158s] [ 37%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/rs_node_setup.cpp.o[0m
+[1.158s] [ 43%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_sensor.cpp.o[0m
+[1.158s] [ 50%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.o[0m
+[1.158s] [ 56%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_utils.cpp.o[0m
+[1.159s] [ 62%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/sensor_params.cpp.o[0m
+[1.159s] [ 68%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/image_publisher.cpp.o[0m
+[1.160s] [ 75%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/named_filter.cpp.o[0m
+[1.160s] [ 81%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/profile_manager.cpp.o[0m
+[1.162s] [ 87%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_param_backend_foxy.cpp.o[0m
+[4.045s] [ 93%] [32m[1mLinking CXX executable realsense2_camera_node[0m
+[4.151s] [ 93%] Built target realsense2_camera_node
+[10.626s] [100%] [32m[1mLinking CXX shared library librealsense2_camera.so[0m
+[10.849s] [100%] Built target realsense2_camera
+[10.859s] Invoked command in '/home/antonio/Documents/GitHub/Jimbot/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/antonio/Documents/GitHub/Jimbot/build/realsense2_camera -- -j16 -l16
+[10.896s] Invoking command in '/home/antonio/Documents/GitHub/Jimbot/build/realsense2_camera': AMENT_PREFIX_PATH=/home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/antonio/Documents/GitHub/Jimbot/build/realsense2_camera
+[10.903s] -- Install configuration: "Release"
+[10.903s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node
+[10.904s] -- Set runtime path of "/home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node" to ""
+[10.904s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/lib/librealsense2_camera.so
+[10.907s] -- Set runtime path of "/home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/lib/librealsense2_camera.so" to ""
+[10.907s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/include
+[10.907s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/include/realsense_node_factory.h
+[10.907s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/include/named_filter.h
+[10.907s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/include/profile_manager.h
+[10.907s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/include/dynamic_params.h
+[10.907s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/include/constants.h
+[10.907s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/include/base_realsense_node.h
+[10.907s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/include/ros_sensor.h
+[10.907s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/include/ros_param_backend.h
+[10.907s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/include/sensor_params.h
+[10.907s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/include/image_publisher.h
+[10.908s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/include/ros_utils.h
+[10.908s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/include/t265_realsense_node.h
+[10.908s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/share/realsense2_camera/launch
+[10.908s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/share/realsense2_camera/launch/rs_launch.py
+[10.908s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/share/realsense2_camera/launch/rs_multi_camera_launch.py
+[10.908s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/share/realsense2_camera/launch/rs_intra_process_demo_launch.py
+[10.908s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/share/realsense2_camera/launch/rs_d400_and_t265_launch.py
+[10.908s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/share/realsense2_camera/launch/default.rviz
+[10.908s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/share/realsense2_camera/environment/library_path.sh
+[10.908s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/share/realsense2_camera/environment/library_path.dsv
+[10.908s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/share/ament_index/resource_index/package_run_dependencies/realsense2_camera
+[10.908s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/share/ament_index/resource_index/parent_prefix_path/realsense2_camera
+[10.908s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.sh
+[10.908s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.dsv
+[10.908s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/share/realsense2_camera/environment/path.sh
+[10.908s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/share/realsense2_camera/environment/path.dsv
+[10.908s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/share/realsense2_camera/local_setup.bash
+[10.908s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/share/realsense2_camera/local_setup.sh
+[10.908s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/share/realsense2_camera/local_setup.zsh
+[10.908s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/share/realsense2_camera/local_setup.dsv
+[10.908s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/share/realsense2_camera/package.dsv
+[10.908s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/share/ament_index/resource_index/packages/realsense2_camera
+[10.908s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/share/ament_index/resource_index/rclcpp_components/realsense2_camera
+[10.909s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.909s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[10.909s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.909s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig.cmake
+[10.909s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig-version.cmake
+[10.909s] -- Installing: /home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera/share/realsense2_camera/package.xml
+[10.910s] Invoked command in '/home/antonio/Documents/GitHub/Jimbot/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/antonio/Documents/GitHub/Jimbot/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/antonio/Documents/GitHub/Jimbot/build/realsense2_camera

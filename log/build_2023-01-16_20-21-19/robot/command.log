@@ -1,0 +1,4 @@
+Invoking command in '/home/antonio/Documents/GitHub/Jimbot/build/robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/antonio/Documents/GitHub/Jimbot/build/robot -- -j16 -l16
+Invoked command in '/home/antonio/Documents/GitHub/Jimbot/build/robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/antonio/Documents/GitHub/Jimbot/build/robot -- -j16 -l16
+Invoking command in '/home/antonio/Documents/GitHub/Jimbot/build/robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/antonio/Documents/GitHub/Jimbot/build/robot
+Invoked command in '/home/antonio/Documents/GitHub/Jimbot/build/robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/antonio/Documents/GitHub/Jimbot/build/robot
