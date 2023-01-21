@@ -2,3 +2,8 @@
 	path = src/realsense-ros
 	url = https://github.com/IntelRealSense/realsense-ros.git
 	branch = ros2-development
+
+[submodule "src/glm"]
+	path = src/glm
+	url = https://github.com/g-truc/glm
+	branch = master
