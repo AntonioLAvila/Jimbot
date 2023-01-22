@@ -25,6 +25,9 @@ class MinimalSubscriber : public rclcpp::Node
       wheelPowers[3] = glm::dot(trans, wheelUnitVectors[3]) + rot;
     }
 
+    void setMotors(){
+    }
+
   private:
     float rotate = 0;
     glm::vec2 translate = glm::vec2(0,0);
