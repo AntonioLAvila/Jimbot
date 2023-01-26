@@ -18,7 +18,7 @@ class MinimalSubscriber : public rclcpp::Node
       "/joy"/*"/camera/gyro/sample"*/, rclcpp::SensorDataQoS(), std::bind(&MinimalSubscriber::topic_callback, this, std::placeholders::_1));
     }
 
-    void updateWheelVectors(glm::vec2 trans, float rot){
+    void updateWheelPowers(glm::vec2 trans, float rot){
       wheelPowers[0] = glm::dot(trans, wheelUnitVectors[0]) + rot;
       wheelPowers[1] = glm::dot(trans, wheelUnitVectors[1]) - rot;
       wheelPowers[2] = glm::dot(trans, wheelUnitVectors[2]) - rot;
@@ -52,6 +52,7 @@ class MinimalSubscriber : public rclcpp::Node
       translate.x = msg.axes[0];
       translate.y = msg.axes[1];
       rotate = msg.axes[3];
+      updateWheelPowers(translate, rotate);
       RCLCPP_INFO(this->get_logger(), std::to_string(msg.axes[0]).c_str());
     }
     rclcpp::Subscription<sensor_msgs::msg::Joy>::SharedPtr subscription_;
