@@ -1,5 +1,8 @@
 {
     "files.associations": {
-        "functional": "cpp"
-    }
+        "functional": "cpp",
+        "*.ipp": "cpp",
+        "*.tcc": "cpp"
+    },
+    "workbench.colorTheme": "Visual Studio Dark - C++"
 }
