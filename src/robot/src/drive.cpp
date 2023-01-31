@@ -65,15 +65,15 @@ class MinimalSubscriber : public rclcpp::Node
     }
 
     void updateWheelPowers(float trans[2], float rot){
-      wheelPowers[0] = (trans[0] + trans[1] + rot)/2;
-      wheelPowers[1] = (trans[0] - trans[1] - rot)/2;
-      wheelPowers[2] = (trans[0] + trans[1] - rot)/2;
-      wheelPowers[3] = (trans[0] - trans[1] + rot)/2;
+      wheelPowers[0] = (rot==0) ? (trans[0] + trans[1] + rot) : (trans[0] + trans[1] + rot)/2;
+      wheelPowers[1] = (rot==0) ? (trans[0] - trans[1] - rot) : (trans[0] - trans[1] - rot)/2;
+      wheelPowers[2] = (rot==0) ? (trans[0] + trans[1] - rot) : (trans[0] + trans[1] - rot)/2;
+      wheelPowers[3] = (rot==0) ? (trans[0] - trans[1] + rot) : (trans[0] - trans[1] + rot)/2;
     }
 
     void setMotors(float powers[4]){
-      char command[25];
-      sprintf(command, "FL%+4.fFR%+4.fBR%+4.fBL%+4.f\n", powers[0], powers[1], powers[2], powers[3]);
+      char command[21];
+      sprintf(command, "%+4.f,%+4.f,%+4.f,%+4.f\n", powers[0]/*FL*/, powers[1]/*FR*/, powers[2]/*BR*/, powers[3]/*BL*/); //FORMAT: FL,FR,BR,BL
       write(serial_port, command, sizeof(command));
     }
 
