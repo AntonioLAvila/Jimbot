@@ -73,7 +73,7 @@ class MinimalSubscriber : public rclcpp::Node
 
     void setMotors(float powers[4]){
       char command[21];
-      sprintf(command, "%+4.f,%+4.f,%+4.f,%+4.f", powers[0]/*FL*/, powers[1]/*FR*/, powers[2]/*BR*/, powers[3]/*BL*/); //FORMAT: FL,FR,BR,BL
+      sprintf(command, "H%+4.f,%+4.f,%+4.f,%+4.f", powers[0]/*FL*/, powers[1]/*FR*/, powers[2]/*BR*/, powers[3]/*BL*/); //FORMAT: FL,FR,BR,BL
       write(serial_port, command, sizeof(command));
     }
 
