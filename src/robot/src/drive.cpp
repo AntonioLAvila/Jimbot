@@ -65,10 +65,11 @@ class MinimalSubscriber : public rclcpp::Node
     }
 
     void updateWheelPowers(float trans[2], float rot){
-      wheelPowers[0] = (rot==0) ? (trans[0] + trans[1] + rot) : (trans[0] + trans[1] + rot)/2;
-      wheelPowers[1] = (rot==0) ? (trans[0] - trans[1] - rot) : (trans[0] - trans[1] - rot)/2;
-      wheelPowers[2] = (rot==0) ? (trans[0] + trans[1] - rot) : (trans[0] + trans[1] - rot)/2;
-      wheelPowers[3] = (rot==0) ? (trans[0] - trans[1] + rot) : (trans[0] - trans[1] + rot)/2;
+      float mag = sqrt(trans[0] * trans[0] + trans[1] * trans[1])
+      wheelPowers[0] = (rot==0) ? (trans[0]/mag + trans[1]/mag) : (trans[0]/mag + trans[1]/mag + rot)/2;
+      wheelPowers[1] = (rot==0) ? (trans[0]/mag - trans[1]/mag) : (trans[0]/mag - trans[1]/mag - rot)/2;
+      wheelPowers[2] = (rot==0) ? (trans[0]/mag + trans[1]/mag) : (trans[0]/mag + trans[1]/mag - rot)/2;
+      wheelPowers[3] = (rot==0) ? (trans[0]/mag - trans[1]/mag) : (trans[0]/mag - trans[1]/mag + rot)/2;
     }
 
     void setMotors(float powers[4]){
